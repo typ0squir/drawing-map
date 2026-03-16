@@ -1,0 +1,480 @@
+{
+    "hall": {
+        "cols": 20,
+        "rows": 17,
+        "unitSizePixels": 45,
+        "unitSizeMeters": 3
+    },
+    "booths": [
+        {
+            "id": "booth_0",
+            "x": 0,
+            "y": 0,
+            "width": 4,
+            "height": 8,
+            "color": "#ebc5a6",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_1",
+            "x": 0,
+            "y": 8,
+            "width": 1,
+            "height": 7,
+            "color": "#e2a596",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_2",
+            "x": 0,
+            "y": 16,
+            "width": 2,
+            "height": 1,
+            "color": "#a1a5ab",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_3",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 1,
+            "color": "#9e8a78",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_4",
+            "x": 3,
+            "y": 10,
+            "width": 2,
+            "height": 4,
+            "color": "#bddff7",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_5",
+            "x": 3,
+            "y": 11,
+            "width": 1,
+            "height": 1,
+            "color": "#a0bbce",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_6",
+            "x": 3,
+            "y": 16,
+            "width": 1,
+            "height": 1,
+            "color": "#a0a5aa",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_7",
+            "x": 4,
+            "y": 0,
+            "width": 4,
+            "height": 1,
+            "color": "#f4e3a1",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_8",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 7,
+            "color": "#f7f2ea",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_9",
+            "x": 5,
+            "y": 15,
+            "width": 4,
+            "height": 1,
+            "color": "#d0e2af",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_10",
+            "x": 5,
+            "y": 16,
+            "width": 15,
+            "height": 1,
+            "color": "#a0a5aa",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_11",
+            "x": 6,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "color": "#c6e3f8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_12",
+            "x": 6,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "color": "#dd91b8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_13",
+            "x": 6,
+            "y": 6,
+            "width": 2,
+            "height": 3,
+            "color": "#d3accc",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_14",
+            "x": 6,
+            "y": 10,
+            "width": 2,
+            "height": 4,
+            "color": "#bddff7",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_15",
+            "x": 8,
+            "y": 0,
+            "width": 1,
+            "height": 1,
+            "color": "#e4e9b8",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_16",
+            "x": 9,
+            "y": 0,
+            "width": 4,
+            "height": 1,
+            "color": "#d4e7e3",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_17",
+            "x": 9,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "color": "#8c9ccc",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_18",
+            "x": 9,
+            "y": 5,
+            "width": 2,
+            "height": 4,
+            "color": "#d2e3b2",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_19",
+            "x": 9,
+            "y": 10,
+            "width": 1,
+            "height": 1,
+            "color": "#bddff7",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_20",
+            "x": 9,
+            "y": 11,
+            "width": 1,
+            "height": 1,
+            "color": "#99b4c6",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_21",
+            "x": 9,
+            "y": 12,
+            "width": 1,
+            "height": 2,
+            "color": "#bddff7",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_22",
+            "x": 10,
+            "y": 10,
+            "width": 1,
+            "height": 1,
+            "color": "#7a8dc5",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_23",
+            "x": 10,
+            "y": 11,
+            "width": 1,
+            "height": 1,
+            "color": "#626e97",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_24",
+            "x": 10,
+            "y": 12,
+            "width": 1,
+            "height": 2,
+            "color": "#798cc4",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_25",
+            "x": 10,
+            "y": 15,
+            "width": 4,
+            "height": 1,
+            "color": "#d0e2af",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_26",
+            "x": 12,
+            "y": 2,
+            "width": 1,
+            "height": 1,
+            "color": "#d8b5d2",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_27",
+            "x": 12,
+            "y": 5,
+            "width": 2,
+            "height": 4,
+            "color": "#ebc1a1",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_28",
+            "x": 12,
+            "y": 10,
+            "width": 2,
+            "height": 2,
+            "color": "#f4e07e",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_29",
+            "x": 12,
+            "y": 12,
+            "width": 2,
+            "height": 2,
+            "color": "#d1a9cb",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_30",
+            "x": 13,
+            "y": 0,
+            "width": 1,
+            "height": 1,
+            "color": "#bfd3ea",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_31",
+            "x": 13,
+            "y": 2,
+            "width": 1,
+            "height": 1,
+            "color": "#a2748c",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_32",
+            "x": 13,
+            "y": 10,
+            "width": 1,
+            "height": 1,
+            "color": "#bbae64",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_33",
+            "x": 14,
+            "y": 0,
+            "width": 1,
+            "height": 1,
+            "color": "#99a6d1",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_34",
+            "x": 14,
+            "y": 15,
+            "width": 4,
+            "height": 1,
+            "color": "#f4e07e",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_35",
+            "x": 15,
+            "y": 0,
+            "width": 1,
+            "height": 1,
+            "color": "#acb0d4",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_36",
+            "x": 15,
+            "y": 2,
+            "width": 2,
+            "height": 1,
+            "color": "#d6e6b9",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_37",
+            "x": 15,
+            "y": 5,
+            "width": 2,
+            "height": 1,
+            "color": "#f4e184",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_38",
+            "x": 15,
+            "y": 6,
+            "width": 2,
+            "height": 3,
+            "color": "#7d8fc5",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_39",
+            "x": 15,
+            "y": 10,
+            "width": 2,
+            "height": 4,
+            "color": "#dc8cb5",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_40",
+            "x": 16,
+            "y": 0,
+            "width": 4,
+            "height": 2,
+            "color": "#dcc0d7",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_41",
+            "x": 16,
+            "y": 11,
+            "width": 1,
+            "height": 1,
+            "color": "#ba789a",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_42",
+            "x": 19,
+            "y": 2,
+            "width": 1,
+            "height": 1,
+            "color": "#e4aeca",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_43",
+            "x": 19,
+            "y": 3,
+            "width": 1,
+            "height": 2,
+            "color": "#e9bbb0",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_44",
+            "x": 19,
+            "y": 5,
+            "width": 1,
+            "height": 3,
+            "color": "#efd2bd",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_45",
+            "x": 19,
+            "y": 8,
+            "width": 1,
+            "height": 1,
+            "color": "#f5e6d9",
+            "name": "",
+            "description": ""
+        },
+        {
+            "id": "booth_46",
+            "x": 19,
+            "y": 11,
+            "width": 1,
+            "height": 5,
+            "color": "#f4e593",
+            "name": "",
+            "description": ""
+        }
+    ]
+}

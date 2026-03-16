@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Exhibition Map</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="booths_data.js"></script>
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-left">
+            <h1>Interactive Exhibition Map</h1>
+            <p class="subtitle">Manage and Edit Booth Information</p>
+        </div>
+        <div class="header-controls">
+            <div class="mode-toggle">
+                <span class="mode-label active" id="label-view">View Mode</span>
+                <label class="switch">
+                    <input type="checkbox" id="modeSwitch">
+                    <span class="slider round"></span>
+                </label>
+                <span class="mode-label" id="label-edit">Edit Mode</span>
+            </div>
+            
+            <button id="addBoothBtn" class="btn btn-primary" style="display: none;">+ Add Booth</button>
+            <button id="downloadBtn" class="btn btn-secondary">Download JSON</button>
+            <button id="resetBtn" class="btn btn-danger">Reset Layout</button>
+        </div>
+    </header>
+
+    <main class="workspace">
+        <!-- The map container where booths will be drawn -->
+        <div class="map-wrapper">
+            <div id="mapContainer" class="map-container">
+                <!-- Grid background & booths will be injected here via JS -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal for Booth Info -->
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Booth Information</h2>
+                <span class="close-btn">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="boothForm">
+                    <input type="hidden" id="boothId">
+                    <div class="form-group">
+                        <label for="boothName">Company Name</label>
+                        <input type="text" id="boothName" placeholder="Enter company name">
+                    </div>
+                    <div class="form-group" id="colorGroup" style="display:none;">
+                        <label for="boothColor">Booth Color</label>
+                        <input type="color" id="boothColor" value="#ff0000">
+                    </div>
+                    <div class="form-group">
+                        <label for="boothDesc">Description</label>
+                        <textarea id="boothDesc" rows="4" placeholder="Enter details about this booth..."></textarea>
+                    </div>
+                    
+                    <div class="form-group dimensions-info">
+                        <label>Size / Dimensions</label>
+                        <p id="boothSizeDisplay">0m x 0m (0㎡)</p>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button id="deleteBoothBtn" class="btn btn-danger" style="display:none; margin-right: auto;">Delete Booth</button>
+                <button type="button" class="btn btn-secondary close-modal-btn">Cancel</button>
+                <button type="button" class="btn btn-primary" id="saveBoothInfoBtn">Save Info</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Saved Successfully</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
